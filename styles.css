@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Corleone;
+    src: url("Corleone.ttf");
+}
+
+body {
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800px;
+    margin: 0;
+}
+
+#hero {
+    background-image: url("./images/galaxy.gif");
+    background-size: cover;
+    height: 80vh;
+    padding-top: 20px;
+}
+
+#main-logo {
+    width: 200px;
+}
+
+#title {
+    text-shadow: 0px 0px 5px black;
+}
+
+.btn {
+    padding: 8px 16px;
+    color: #82a5ca;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.underline {
+    border-bottom: 2px solid white;
+}
